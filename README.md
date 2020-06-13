@@ -1,5 +1,7 @@
 # AceleraDev-Data-Science-Projeto-Final-2020
 
+http://recommender-aceleradev.herokuapp.com
+
 ## Objetivo
 
 O objetivo deste produto é fornecer um serviço automatizado que recomenda leads para um usuário dado sua atual lista de clientes (Portfólio).
