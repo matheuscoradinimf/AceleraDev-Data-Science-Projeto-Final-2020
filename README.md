@@ -23,6 +23,6 @@ O método de avaliação consistiu na separação dos 3 portfólios em treino e 
 
 Os 3 métodos utilizados foram a simples similaridade de coseno (Normal), a similaridade após aplicação de NMf e a similaridade após aplicação do SVD. O tempo de processamento do NMF foi de 10min 23seg, e do SVD foi de 1min 23seg.
 
-![Alt](link)
+![Alt](https://github.com/matheuscoradini/AceleraDev-Data-Science-Projeto-Final-2020/blob/master/resultados.PNG)
 
 
