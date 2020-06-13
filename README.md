@@ -12,3 +12,17 @@ Além disso, sua solução deve ser agnóstica ao usuário. Qualquer usuário co
 Para o desafio, deverão ser consideradas as seguintes bases:
 
 Mercado: Base com informações sobre as empresas do Mercado a ser considerado. Portfolio 1: Ids dos clientes da empresa 1 Portfolio 2: Ids dos clientes da empresa 2 Portfolio 3: Ids dos clientes da empresa 3
+
+## Solução
+
+A solução final utilizada foi um sistema de recomendação do tipo Item-Based Collaborative Filter, com fatoração de matrizes e similaridade de coseno. O método utilizado para a fatoração foi o SVDTruncated, pois obteve melhores resultados e rapdez de execução comparado ao NMf.
+
+## Resultados
+
+O método de avaliação consistiu na separação dos 3 portfólios em treino e teste, e utilizar as partes de treino para procurar recomendações. Quanto maior a presença dos clientes de teste nas recomendações melhor, e para isso foram utilizados os rankings da 1000, 4000, 20000 e 40000 empresas mais recomendadas.
+
+Os 3 métodos utilizados foram a simples similaridade de coseno (Normal), a similaridade após aplicação de NMf e a similaridade após aplicação do SVD. O tempo de processamento do NMF foi de 10min 23seg, e do SVD foi de 1min 23seg.
+
+![Alt](link)
+
+
