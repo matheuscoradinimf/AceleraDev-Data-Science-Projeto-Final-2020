@@ -4,7 +4,7 @@ http://recommender-aceleradev.herokuapp.com
 
 ## Sobre o repositório
 
-Os notebooks estão separados por etapa, dentro de suas respectivas apstas. As etapas principais foram: EDA, pré-processamento, seleção de hiper-parâmetros, evaluating e deploy.
+Os notebooks estão separados por etapa, dentro de suas respectivas apstas. As etapas principais foram: EDA, pré-processamento, seleção de hiper-parâmetros, evaluating e deploy. O código do streamlit está na pasta do Deploy.
 
 ## Objetivo
 
