@@ -21,7 +21,7 @@ Mercado: Base com informações sobre as empresas do Mercado a ser considerado. 
 
 ## Solução
 
-A solução final utilizada foi um sistema de recomendação do tipo Item-Based Collaborative Filter, com fatoração de matrizes e similaridade de coseno. O método utilizado para a fatoração foi o SVDTruncated, pois obteve melhores resultados e rapdez de execução comparado ao NMf.
+A solução final utilizada foi um sistema de recomendação do tipo Item-Based Collaborative Filter, com fatoração de matrizes e similaridade de coseno. O método utilizado para a fatoração foi o TruncatedSVD, pois obteve melhores resultados e rapidez de execução comparado ao NMF.
 
 ## Resultados
 
