@@ -2,6 +2,10 @@
 
 http://recommender-aceleradev.herokuapp.com
 
+## Sobre o repositório
+
+Os notebooks estão separados por etapa, dentro de suas respectivas apstas. As etapas principais foram: EDA, pré-processamento, seleção de hiper-parâmetros, evaluating e deploy.
+
 ## Objetivo
 
 O objetivo deste produto é fornecer um serviço automatizado que recomenda leads para um usuário dado sua atual lista de clientes (Portfólio).
